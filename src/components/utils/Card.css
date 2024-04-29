@@ -1,0 +1,21 @@
+.card-box {
+    width: 20vw;
+    height: 70vh;
+    background-color: brown;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 700px) {
+    
+  
+    .card-box {
+      width: 80vw;
+      margin-top: 10vw;
+      margin-bottom: 0;
+      height: 50vh;
+    }
+ 
+    }
